@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+li{
+    color: white;
+    list-style-type: none;
+}
+a{
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+
+}
+.main{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(3, 57, 22);
+    /* opacity: 0.3; */
+    padding: 3%;
+}
+.username{
+    color: white;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* background-color: white; */
+}
+
+
+.card{
+    height: 80%;
+    width: 30%;
+    padding: 1%;
+    background-color: rgb(2, 39, 15);
+    margin-left: 1%;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 10vw;
+    height: 6vh;
+}
